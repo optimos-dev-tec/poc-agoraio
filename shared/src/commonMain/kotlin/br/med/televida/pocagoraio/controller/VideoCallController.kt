@@ -23,6 +23,8 @@ interface VideoCallController {
 
     fun muteAudio(muted: Boolean)
     fun muteVideo(muted: Boolean)
+
+    fun release()
 }
 
 /**
