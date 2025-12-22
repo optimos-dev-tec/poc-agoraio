@@ -1,0 +1,3 @@
+language = Objective-C
+modules = AgoraRtcEngine_iOS
+linkerOpts = -framework AgoraRtcEngine_iOS
