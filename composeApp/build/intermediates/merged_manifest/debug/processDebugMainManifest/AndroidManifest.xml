@@ -16,14 +16,14 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <permission
         android:name="br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
 
     <application
         android:allowBackup="true"
@@ -90,17 +90,6 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
-            android:configChanges="screenSize|orientation"
-            android:screenOrientation="unspecified"
-            android:theme="@android:style/Theme.Translucent" />
-
-        <service
-            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
-            android:foregroundServiceType="mediaProjection" >
-        </service>
     </application>
 
 </manifest>
