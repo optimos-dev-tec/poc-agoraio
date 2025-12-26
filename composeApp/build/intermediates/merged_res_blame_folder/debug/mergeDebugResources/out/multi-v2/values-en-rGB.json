@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-34:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-35:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/75e5ed20ea6a6017081ecc0b47fe0f76/transformed/ui-release/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,216",
-                        "endColumns": "74,85,84",
-                        "endOffsets": "125,211,296"
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "181,273,355,449,548,635,717,806,895,979,1057,1139,1212,1296,1372,1444,1514,1591,1657",
+                        "endColumns": "91,81,93,98,86,81,88,88,83,77,81,72,83,75,71,69,76,65,120",
+                        "endOffsets": "268,350,444,543,630,712,801,890,974,1052,1134,1207,1291,1367,1439,1509,1586,1652,1773"
                     },
                     "to": {
-                        "startLines": "2,96,97",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "105,9677,9763",
-                        "endColumns": "74,85,84",
-                        "endOffsets": "175,9758,9843"
+                        "startLines": "10,11,12,13,14,15,16,83,84,85,86,87,88,89,90,91,93,94,95",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "899,991,1073,1167,1266,1353,1435,8604,8693,8777,8855,8937,9010,9094,9170,9242,9413,9490,9556",
+                        "endColumns": "91,81,93,98,86,81,88,88,83,77,81,72,83,75,71,69,76,65,120",
+                        "endOffsets": "986,1068,1162,1261,1348,1430,1519,8688,8772,8850,8932,9005,9089,9165,9237,9307,9485,9551,9672"
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/b0d8eeb169345ac797944a659db98d39/transformed/material3/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/0e184b9af7163ea75258e05bf65a804f/transformed/foundation-release/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "181,273,355,449,548,635,717,806,895,979,1057,1139,1212,1296,1372,1444,1514,1591,1657",
-                        "endColumns": "91,81,93,98,86,81,88,88,83,77,81,72,83,75,71,69,76,65,120",
-                        "endOffsets": "268,350,444,543,630,712,801,890,974,1052,1134,1207,1291,1367,1439,1509,1586,1652,1773"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,216",
+                        "endColumns": "74,85,84",
+                        "endOffsets": "125,211,296"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,83,84,85,86,87,88,89,90,91,93,94,95",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "899,991,1073,1167,1266,1353,1435,8604,8693,8777,8855,8937,9010,9094,9170,9242,9413,9490,9556",
-                        "endColumns": "91,81,93,98,86,81,88,88,83,77,81,72,83,75,71,69,76,65,120",
-                        "endOffsets": "986,1068,1162,1261,1348,1430,1519,8688,8772,8850,8932,9005,9089,9165,9237,9307,9485,9551,9672"
+                        "startLines": "2,96,97",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,9677,9763",
+                        "endColumns": "74,85,84",
+                        "endOffsets": "175,9758,9843"
                     }
                 }
             ]

@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-34:/values-ne/values-ne.xml",
+            "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-35:/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,128,213",
-                        "endColumns": "72,84,90",
-                        "endOffsets": "123,208,299"
-                    },
-                    "to": {
-                        "startLines": "2,96,97",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "105,10113,10198",
-                        "endColumns": "72,84,90",
-                        "endOffsets": "173,10193,10284"
-                    }
-                },
-                {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,261,363,469,567,667,775",
-                        "endColumns": "102,102,101,105,97,99,107,100",
-                        "endOffsets": "153,256,358,464,562,662,770,871"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,92",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "178,281,384,486,592,690,790,9743",
-                        "endColumns": "102,102,101,105,97,99,107,100",
-                        "endOffsets": "276,379,481,587,685,785,893,9839"
-                    }
-                },
-                {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/res/values-ne/values-ne.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/b0d8eeb169345ac797944a659db98d39/transformed/material3/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/res/values-ne/values-ne.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,261,363,469,567,667,775",
+                        "endColumns": "102,102,101,105,97,99,107,100",
+                        "endOffsets": "153,256,358,464,562,662,770,871"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,92",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "178,281,384,486,592,690,790,9743",
+                        "endColumns": "102,102,101,105,97,99,107,100",
+                        "endOffsets": "276,379,481,587,685,785,893,9839"
+                    }
+                },
+                {
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/75e5ed20ea6a6017081ecc0b47fe0f76/transformed/ui-release/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "898,997,1087,1181,1278,1364,1446,9006,9093,9179,9269,9362,9439,9523,9598,9671,9844,9925,9993",
                         "endColumns": "98,89,93,96,85,81,95,86,85,89,92,76,83,74,72,71,80,67,119",
                         "endOffsets": "992,1082,1176,1273,1359,1441,1537,9088,9174,9264,9357,9434,9518,9593,9666,9738,9920,9988,10108"
+                    }
+                },
+                {
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/0e184b9af7163ea75258e05bf65a804f/transformed/foundation-release/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,128,213",
+                        "endColumns": "72,84,90",
+                        "endOffsets": "123,208,299"
+                    },
+                    "to": {
+                        "startLines": "2,96,97",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,10113,10198",
+                        "endColumns": "72,84,90",
+                        "endOffsets": "173,10193,10284"
                     }
                 }
             ]
