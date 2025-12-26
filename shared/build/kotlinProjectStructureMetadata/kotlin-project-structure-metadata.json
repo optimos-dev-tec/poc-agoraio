@@ -30,19 +30,11 @@
       {
         "name": "iosArm64ApiElements",
         "sourceSet": [
-          "iosMain",
           "commonMain"
         ]
       },
       {
         "name": "iosSimulatorArm64ApiElements",
-        "sourceSet": [
-          "iosMain",
-          "commonMain"
-        ]
-      },
-      {
-        "name": "iosX64ApiElements",
         "sourceSet": [
           "commonMain"
         ]
@@ -57,18 +49,6 @@
           "org.jetbrains.kotlinx:kotlinx-coroutines-core"
         ],
         "binaryLayout": "klib"
-      },
-      {
-        "name": "iosMain",
-        "dependsOn": [
-          "commonMain"
-        ],
-        "moduleDependency": [
-          "org.jetbrains.kotlinx:kotlinx-coroutines-core"
-        ],
-        "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
-        "binaryLayout": "klib",
-        "hostSpecific": "true"
       }
     ]
   }

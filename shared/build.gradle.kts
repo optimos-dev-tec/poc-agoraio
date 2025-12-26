@@ -1,11 +1,9 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.plugin.mpp.TestExecutable
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    alias(libs.plugins.kotlinCocoapods)
 }
 
 
@@ -16,24 +14,25 @@ kotlin {
         }
     }
 
-    iosArm64()
-    iosSimulatorArm64()
+    val xcf = XCFramework("agoraio")
 
-    cocoapods {
-        version = "1.0.0"
-        summary = "Shared module for PocAgoraIO"
-        homepage = "Link to your project homepage"
-        ios.deploymentTarget = "14.1" // Use uma versão compatível
-        podfile = project.file("../iosApp/Podfile") // Caminho para o Podfile do seu app iOS
-
-        // Adiciona a dependência do SDK do Agora via Pod
-        pod("AgoraRtcEngine_iOS") {
-            version = "4.3.0" // Use a versão mais recente ou a desejada
-        }
-
-        framework {
-            baseName = "Shared"
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "agoraio"
             isStatic = true
+            xcf.add(this)
+            export("agora:agora")
+            linkerOpts.add("-F${project.projectDir}/libs")
+        }
+        iosTarget.compilations.getByName("main"){
+            cinterops.create("agora") {
+                defFile(project.file("src/nativeInterop/cinterop/AgoraRtcKit.def"))
+                packageName("agora")
+                compilerOpts("-framework", "AgoraRtcKit", "-F${project.projectDir}/libs")
+            }
         }
     }
 
@@ -55,10 +54,26 @@ kotlin {
 
         val iosMain by creating {
             dependsOn(commonMain)
-        }
 
-        val iosArm64Main by getting { dependsOn(iosMain) }
-        val iosSimulatorArm64Main by getting { dependsOn(iosMain) }
+            dependencies {
+                implementation(libs.kotlinx.coroutines.core)
+                implementation(
+                    project.files(
+                        project.tasks.getByName<org.jetbrains.kotlin.gradle.tasks.CInteropProcess>(
+                            "cinteropAgoraIosArm64"
+                        ).outputFile
+                    )
+                )
+                implementation(
+                    project.files(
+                        project.tasks.getByName<org.jetbrains.kotlin.gradle.tasks.CInteropProcess>(
+                            "cinteropAgoraIosSimulatorArm64"
+                        ).outputFile
+                    )
+                )
+
+            }
+        }
 
         val commonTest by getting {
             dependencies {

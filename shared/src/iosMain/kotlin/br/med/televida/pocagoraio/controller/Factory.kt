@@ -12,5 +12,6 @@ actual fun createVideoCallController(
     coroutineScope: CoroutineScope
 ): VideoCallController {
     // Agora que a classe existe, podemos retorná-la.
-    return IosVideoController()
+    return IosVideoController(coroutineScope)
+
 }

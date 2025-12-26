@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import platform.darwin.NSObject // Importação base para delegados
 // Importações do SDK do Agora para iOS
-import AgoraRtcKit.*
+import agora.*
 
 // 1. FAÇA A CLASSE HERDAR DE NSObject E DO DELEGADO DO AGORA
 class IosVideoController(
