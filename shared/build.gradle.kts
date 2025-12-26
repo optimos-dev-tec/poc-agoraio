@@ -26,6 +26,8 @@ kotlin {
             xcf.add(this)
             export("agora:agora")
             linkerOpts.add("-F${project.projectDir}/libs")
+            linkerOpts.add("-framework")
+            linkerOpts.add("AgoraRtcKit")
         }
         iosTarget.compilations.getByName("main"){
             cinterops.create("agora") {
@@ -54,25 +56,6 @@ kotlin {
 
         val iosMain by creating {
             dependsOn(commonMain)
-
-            dependencies {
-                implementation(libs.kotlinx.coroutines.core)
-                implementation(
-                    project.files(
-                        project.tasks.getByName<org.jetbrains.kotlin.gradle.tasks.CInteropProcess>(
-                            "cinteropAgoraIosArm64"
-                        ).outputFile
-                    )
-                )
-                implementation(
-                    project.files(
-                        project.tasks.getByName<org.jetbrains.kotlin.gradle.tasks.CInteropProcess>(
-                            "cinteropAgoraIosSimulatorArm64"
-                        ).outputFile
-                    )
-                )
-
-            }
         }
 
         val commonTest by getting {

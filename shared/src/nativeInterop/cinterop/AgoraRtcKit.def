@@ -1,7 +1,4 @@
-      // Informa a linguagem da biblioteca nativa.
+
     language = Objective-C
-    
-    // Aponta para o arquivo de cabeçalho principal do framework do Agora.
-    // O cinterop usará isso para gerar as "bindings" (pontes) para o Kotlin.
     headers = AgoraRtcKit/AgoraRtcEngineKit.h
     
