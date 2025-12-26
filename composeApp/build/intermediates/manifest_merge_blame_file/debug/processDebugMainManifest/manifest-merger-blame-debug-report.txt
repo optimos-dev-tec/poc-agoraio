@@ -9,162 +9,163 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-feature
-11-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:4:5-6:40
+11-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:4:5-6:40
 12        android:name="android.hardware.camera"
-12-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:5:13-51
+12-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:5:13-51
 13        android:required="false" />
-13-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:6:13-37
+13-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:6:13-37
 14
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:5-67
-15-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:22-64
+15-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:5-67
+15-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:22-64
 16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-16-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:5-71
-16-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:22-68
+16-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:5-71
+16-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:22-68
 17    <uses-permission android:name="android.permission.CAMERA" />
-17-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:5-65
-17-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:22-62
+17-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:5-65
+17-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:22-62
 18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-18-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:5-80
-18-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:22-77
+18-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:5-80
+18-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:22-77
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:5-79
-19-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:22-76
+19-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:5-79
+19-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:22-76
 20    <uses-permission android:name="android.permission.BLUETOOTH" />
-20-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:5-68
-20-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:22-65
+20-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:5-68
+20-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:22-65
 21
 22    <permission
-22-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+22-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 23        android:name="br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-23-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+23-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 24        android:protectionLevel="signature" />
-24-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+24-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 25
 26    <uses-permission android:name="br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-26-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-26-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+26-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:16:5-32:19
+28-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:16:5-32:19
 29        android:allowBackup="true"
-29-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:17:9-35
+29-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:17:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+30-->[androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@mipmap/ic_launcher"
-33-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:18:9-43
+33-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:18:9-43
 34        android:label="@string/app_name"
-34-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:19:9-41
+34-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:19:9-41
 35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:20:9-54
+35-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:20:9-54
 36        android:supportsRtl="true"
-36-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:21:9-35
-37        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
-37-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:22:9-72
-38        <activity
-38-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:23:9-31:20
-39            android:name="br.med.televida.pocagoraio.MainActivity"
-39-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:25:13-41
-40            android:exported="true" >
-40-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:24:13-36
-41            <intent-filter>
-41-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:26:13-30:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:17-69
-42-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:17-77
-44-->/Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:27-74
-45            </intent-filter>
-46        </activity>
-47
-48        <provider
-48-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8f21729fe88f3b8e1c21ede71241e97c/transformed/library-release/AndroidManifest.xml:8:9-13:20
-49            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
-49-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8f21729fe88f3b8e1c21ede71241e97c/transformed/library-release/AndroidManifest.xml:9:13-82
-50            android:authorities="br.med.televida.pocagoraio.resources.AndroidContextProvider"
-50-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8f21729fe88f3b8e1c21ede71241e97c/transformed/library-release/AndroidManifest.xml:10:13-84
-51            android:enabled="true"
-51-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8f21729fe88f3b8e1c21ede71241e97c/transformed/library-release/AndroidManifest.xml:11:13-35
-52            android:exported="false" >
-52-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8f21729fe88f3b8e1c21ede71241e97c/transformed/library-release/AndroidManifest.xml:12:13-37
-53        </provider>
-54
-55        <activity
-55-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5c8083c24da1fd509ee2cdaa1009d8eb/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
-56            android:name="androidx.compose.ui.tooling.PreviewActivity"
-56-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5c8083c24da1fd509ee2cdaa1009d8eb/transformed/ui-tooling/AndroidManifest.xml:24:13-71
-57            android:exported="true" />
-57-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5c8083c24da1fd509ee2cdaa1009d8eb/transformed/ui-tooling/AndroidManifest.xml:25:13-36
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
-61            android:authorities="br.med.televida.pocagoraio.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/519ae05eb3af6524b5879489ae4108fe/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80a350e37bf79f5e5fe2bbe097e6bbc5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80a350e37bf79f5e5fe2bbe097e6bbc5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80a350e37bf79f5e5fe2bbe097e6bbc5/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-71                android:value="androidx.startup" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-72        </provider>
-73
-74        <receiver
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-76            android:directBootAware="false"
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-77            android:enabled="true"
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-78            android:exported="true"
-78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-79            android:permission="android.permission.DUMP" >
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-88            </intent-filter>
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e1d8a1340dc951aefe766c9cc4b2df3a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-91            </intent-filter>
-92        </receiver>
-93    </application>
-94
-95</manifest>
+36-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+38-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:22:9-72
+39        <activity
+39-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:23:9-31:20
+40            android:name="br.med.televida.pocagoraio.MainActivity"
+40-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:25:13-41
+41            android:exported="true" >
+41-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:24:13-36
+42            <intent-filter>
+42-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:26:13-30:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:17-69
+43-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:17-77
+45-->/Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:8:9-13:20
+50            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+50-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:9:13-82
+51            android:authorities="br.med.televida.pocagoraio.resources.AndroidContextProvider"
+51-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:10:13-84
+52            android:enabled="true"
+52-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:11:13-35
+53            android:exported="false" >
+53-->[org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:12:13-37
+54        </provider>
+55
+56        <activity
+56-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+57            android:name="androidx.compose.ui.tooling.PreviewActivity"
+57-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+58            android:exported="true" />
+58-->[androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+62            android:authorities="br.med.televida.pocagoraio.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+72                android:value="androidx.startup" />
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+73        </provider>
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>

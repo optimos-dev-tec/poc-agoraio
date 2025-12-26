@@ -6,8 +6,8 @@ plugins {
     alias(libs.plugins.androidLibrary)
 }
 
-
 kotlin {
+
     androidTarget {
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_11)
@@ -16,24 +16,24 @@ kotlin {
 
     val xcf = XCFramework("agoraio")
 
-    listOf(
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
+    iosArm64()
+    iosSimulatorArm64()
+
+    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget>().configureEach {
+
+        binaries.framework {
             baseName = "agoraio"
-            isStatic = true
             xcf.add(this)
-            export("agora:agora")
-            linkerOpts.add("-F${project.projectDir}/libs")
-            linkerOpts.add("-framework")
-            linkerOpts.add("AgoraRtcKit")
+
+            linkerOpts(
+                "-F${project.projectDir}/libs",
+                "-framework", "AgoraRtcKit"
+            )
         }
-        iosTarget.compilations.getByName("main"){
-            cinterops.create("agora") {
+
+        compilations["main"].cinterops {
+            create("agora") {
                 defFile(project.file("src/nativeInterop/cinterop/AgoraRtcKit.def"))
-                packageName("agora")
-                compilerOpts("-framework", "AgoraRtcKit", "-F${project.projectDir}/libs")
             }
         }
     }
@@ -42,20 +42,14 @@ kotlin {
 
         val commonMain by getting {
             dependencies {
-                // Coroutines (StateFlow / SharedFlow)
                 implementation(libs.kotlinx.coroutines.core)
             }
         }
 
         val androidMain by getting {
             dependencies {
-                // A versão do Android foi atualizada para ser mais próxima da de iOS.
                 implementation("io.agora.rtc:full-sdk:4.3.0")
             }
-        }
-
-        val iosMain by creating {
-            dependsOn(commonMain)
         }
 
         val commonTest by getting {

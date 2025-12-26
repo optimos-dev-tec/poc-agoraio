@@ -4,24 +4,7 @@
             "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-35:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/75e5ed20ea6a6017081ecc0b47fe0f76/transformed/ui-release/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "178,261,338,430,526,608,686,769,851,929,1007,1088,1158,1241,1314,1387,1459,1539,1604",
-                        "endColumns": "82,76,91,95,81,77,82,81,77,77,80,69,82,72,72,71,79,64,115",
-                        "endOffsets": "256,333,425,521,603,681,764,846,924,1002,1083,1153,1236,1309,1382,1454,1534,1599,1715"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,83,84,85,86,87,88,89,90,91,93,94,95",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "864,947,1024,1116,1212,1294,1372,8252,8334,8412,8490,8571,8641,8724,8797,8870,9043,9123,9188",
-                        "endColumns": "82,76,91,95,81,77,82,81,77,77,80,69,82,72,72,71,79,64,115",
-                        "endOffsets": "942,1019,1111,1207,1289,1367,1450,8329,8407,8485,8566,8636,8719,8792,8865,8937,9118,9183,9299"
-                    }
-                },
-                {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/0e184b9af7163ea75258e05bf65a804f/transformed/foundation-release/res/values-am/values-am.xml",
+                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/b0d8eeb169345ac797944a659db98d39/transformed/material3/res/values-am/values-am.xml",
+                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/428fb061b0235d261bbea4b7b052490a/transformed/core-1.16.0/res/values-am/values-am.xml",
+                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "177,270,370,467,566,662,764,8942",
                         "endColumns": "92,99,96,98,95,101,99,100",
                         "endOffsets": "265,365,462,561,657,759,859,9038"
+                    }
+                },
+                {
+                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "178,261,338,430,526,608,686,769,851,929,1007,1088,1158,1241,1314,1387,1459,1539,1604",
+                        "endColumns": "82,76,91,95,81,77,82,81,77,77,80,69,82,72,72,71,79,64,115",
+                        "endOffsets": "256,333,425,521,603,681,764,846,924,1002,1083,1153,1236,1309,1382,1454,1534,1599,1715"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,83,84,85,86,87,88,89,90,91,93,94,95",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "864,947,1024,1116,1212,1294,1372,8252,8334,8412,8490,8571,8641,8724,8797,8870,9043,9123,9188",
+                        "endColumns": "82,76,91,95,81,77,82,81,77,77,80,69,82,72,72,71,79,64,115",
+                        "endOffsets": "942,1019,1111,1207,1289,1367,1450,8329,8407,8485,8566,8636,8719,8792,8865,8937,9118,9183,9299"
                     }
                 }
             ]

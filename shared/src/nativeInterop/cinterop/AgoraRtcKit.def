@@ -1,4 +1,11 @@
+language = Objective-C
+modules = AgoraRtcKit
+package = io.agora.rtc
 
-    language = Objective-C
-    headers = AgoraRtcKit/AgoraRtcEngineKit.h
-    
+compilerOpts = \
+  -F${projectDir}/libs \
+  -framework AgoraRtcKit
+
+linkerOpts = \
+  -F${projectDir}/libs \
+  -framework AgoraRtcKit

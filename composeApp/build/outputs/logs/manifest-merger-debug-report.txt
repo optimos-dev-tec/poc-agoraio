@@ -1,452 +1,377 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-32:12
-MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:2:1-16:12
-MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1bffc9968b17440527d88eaeea3fd36b/transformed/library-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8dc491a1750cc0c4831d53251436c94c/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abb56dc14d45d1f3ad72e440eb5d885b/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/736206704188a26f6e42994317c083e1/transformed/animation-core/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f7bc9861cf761a9f1280fcfc2f1350a8/transformed/animation/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f9e4b73d726fecce9534e55d77a6a80e/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1ff5743f8fab7672933e028451c60248/transformed/ui-backhandler-debug/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80e80468d9536e0317d2997608229e08/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4718d44d7f5e34decd8c8f7a33fcfcb6/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/28e8af65cb9d872537caa1c40a627874/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3a1538184d82fbb7822e816c1b6d34d3/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/56c0611fd4e957b36fa4ea5bd824638a/transformed/ui-util/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0d9126ba5b0202bf130279458e1c9730/transformed/ui-text/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/7b2e9a91e0383596c3a606bcd99f419b/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/39b53742c5b7a30d58dde601bc99d92f/transformed/navigationevent/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6492f0471f93024b2083a8563656a250/transformed/navigationevent-compose/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/025a65e29d8b0a82433e3086630a16bb/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/879ebafbd3f3e3db20fc5e7e74e0cee4/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/64dc95ccad32bb63e4f54f40fa349d1a/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fcc6134d244f3e07f702b71442d3322c/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f29b99da65b99a7cda24213d560f5774/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/665e46dba94189c1b1351a920830f28e/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2aee8cec0f9a7c4ed781bfde3d573ea2/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5838e0c1214a053f1c2f52cbe8cd54fc/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2c8e66dfb1760b3e908bf868c406f559/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bc83bd7894d1441a348ad79d3ff57f29/transformed/runtime/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/deac881b698bbf2643696062265979c2/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/63648bfda6693b757dab5f1ebe168626/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3086fda9c150608bb754f0ce1eb7196d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/33a052f9dc4570bd2038d7073ca377d3/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9938becf2cf5f3ff8c8e85b1cb259920/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/220d5c876c46f7b7791614b42c68744d/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/af454fa896ebd278358e63074182bc52/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9045d5e6813a0c4c049f685be956f723/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0891c8dda678eda660ff8a6a0db15e7d/transformed/material-icons-core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/85b52a7ae1e32da52d29a957d54e8621/transformed/activity-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4e9cb767fae0e53a79dae870987d48f2/transformed/activity-1.12.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-compose:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/d14f8be647c79770a325cfc1c4745bb0/transformed/activity-compose-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [:shared] /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [io.agora.rtc:full-sdk:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1646885c7b9533a6fd062e921c526b6a/transformed/full-sdk-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c94525a0c67baac70b93e24bce24d3c0/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/25605da595e725ba6ba6ecc63e4549ba/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/486cdd67f227a2808bc635bd1112eaa8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/18a76c8ab79347ecf54ab720e63d27b4/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2a00f8063b4c52ca2336f15679c06ed6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e19ff428039d5878246f1d1e553fb1b6/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
-MERGED from [io.agora.rtc:full-rtc-basic:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/607435246d17f0b7bba090baf0a62c9d/transformed/full-rtc-basic-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:ains:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9956689b6da4fb7df25fa1f43d72c2fe/transformed/ains-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:audio-beauty:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2b5f4c931ac930d8cf090f9ef461ee49/transformed/audio-beauty-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:clear-vision:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/93965253943e373ac2736a21a4d0123d/transformed/clear-vision-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-content-inspect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abc29081a29d56ed2a8eec1d621974b3/transformed/full-content-inspect-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:screen-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/07cb0c0151b6aee86abd59ec0a2e973b/transformed/screen-capture-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-virtual-background:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/ee324790119f2e947660bcf1fb568db2/transformed/full-virtual-background-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:spatial-audio:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ad832335c4e0f51abe229048b8ed2d6/transformed/spatial-audio-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:2:1-21:12
-MERGED from [io.agora.rtc:aiaec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/36c60d91833295a14f07e651610f9714/transformed/aiaec-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-vqa:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/969f1513241052bd38cb8d7c7ad267c2/transformed/full-vqa-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-face-detect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/eace43acf0ab43ca48a47317103de5f2/transformed/full-face-detect-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-face-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c80550b22788dcf4759a0afe3396be53/transformed/full-face-capture-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-voice-drive:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c2b956381c8c2253326377c88c388866/transformed/full-voice-drive-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-video-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/27e33948c898771919ffa47b4817836a/transformed/full-video-codec-enc-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-video-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/73cbdf118afff73b276b56467d6d5718/transformed/full-video-codec-dec-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-video-av1-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fb1b819ae81b04fa6c5ecd6c3bd8f1fa/transformed/full-video-av1-codec-enc-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.rtc:full-video-av1-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2f3fa9bd278385db3b547fabec276a37/transformed/full-video-av1-codec-dec-4.6.1/AndroidManifest.xml:2:1-9:12
-MERGED from [io.agora.infra:aosl:1.3.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3782bd3923bd9d90cf7ef32a4f03d7d3/transformed/aosl-1.3.0/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:1-34:12
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:2:1-16:12
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/e5bb7bf37deb1455b17f678b65f10a4f/transformed/library-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b0396fb2071973b797e64cce1ebb36bf/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b9f108f18aa176865c56896d4663a5e8/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dfd945e6b406083a49e2f02e12195f02/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d20704a6f0aa7f98959984748c3ac24/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9a3c39e7c123b6d6fc01b095a2448b59/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dae5fb1e156543cef61b5c68e1aff0d1/transformed/ui-backhandler-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/f21182e55b965dbfcff9393263fcfec0/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/10004199246f37f646ede5d1817d46cc/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/325a2f912a5467f98d9aabd55480a6e7/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/48d2c7189867c2e04fe4c5af1edf3a47/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a11556acfe5b22cb95582006640c2b22/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d057f90166c7fafb05abd2e3f3a128a/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/27eb61b74c0f7098408fd6c963a40f5b/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/47548896ed90daec5b7d60896937ab41/transformed/navigationevent/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/107b5f014e082756b4a3ae5126c6d309/transformed/navigationevent-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0b779f0bd2c6fb199cccc41fd464da99/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9422fca56eb3b1611f8f5641c3b01630/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6c63b8923a62666182ed717588e6cb44/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a1dcdfb2158e904f557eedef4f737c3b/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce7c6d2c54cd34b04edb060f34da064d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6f1ee6341716adbcff6ad34be88975e0/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5e25cebbf8615a442296fde7b4c7e8c7/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4f2481b3fee41a32f4fc227cb1521d51/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/1ca025a76cfa72db11033bdd89a0ca36/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/717ea45faa22fefc82a9abb90b2f6ec0/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ee5a79db14b9d96b7254f1160f05c7b8/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6da36f21330cf19053518645a80a2ab5/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/125fcc7c8aaf334db22a461800c99933/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cb40b8cc31ff63d573ab55eb5973524/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/763c71f63e76ae036170299f7d3187c2/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9609e9d1c54eff68946d27537051b1e9/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/db65a07846d91f6295452da92634614a/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/394723b182b5ba5e55aa1c298d56cc69/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/08c544d8cb3e41c8d274d5f54966f6fa/transformed/material-icons-core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/07ff91925fcf5a3da7482446df43652e/transformed/activity-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5850752e4c9f7f5f9e4c32936b421945/transformed/activity-1.12.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/96d2c5de1be44a38aba17ab76ea7cee0/transformed/activity-compose-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared] /Users/mobileangellira/Documents/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [io.agora.rtc:full-sdk:4.3.2] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/566d61ff9bf85d1ccb3d797702efd0d8/transformed/full-sdk-4.3.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ae18406f9ffdb269cfc2a569fc35acd2/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce44c6fc7df424808521dbd44330caa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0ff0537de8db291dd0f447f8904d57a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4d8ff88cf68c25136af9154286fe8e07/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/24b193fb65b5eb8e910386d200b56ceb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/010b5055b115045698e03305b140124a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:4:5-6:40
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:4:5-6:40
 	android:required
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:6:13-37
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:6:13-37
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:5:13-51
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:5:13-51
 uses-permission#android.permission.INTERNET
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:5-67
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:22-64
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:5-71
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:5-71
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:22-68
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:9:22-68
 uses-permission#android.permission.CAMERA
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:5-65
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:5-65
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:22-62
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:10:22-62
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:5-80
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:22-77
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:13:22-65
 application
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:14:5-30:19
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:14:5-30:19
-MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:7:5-14:19
-MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:7:5-14:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/486cdd67f227a2808bc635bd1112eaa8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/486cdd67f227a2808bc635bd1112eaa8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:10:5-20:19
-MERGED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:10:5-20:19
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:16:5-32:19
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:16:5-32:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0ff0537de8db291dd0f447f8904d57a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0ff0537de8db291dd0f447f8904d57a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:19:9-35
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:17:9-41
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:19:9-41
 	android:roundIcon
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:18:9-54
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:16:9-43
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:15:9-35
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:20:9-72
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:22:9-72
 activity#br.med.televida.pocagoraio.MainActivity
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:21:9-29:20
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:23:9-31:20
 	android:exported
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:22:13-36
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:23:13-41
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:25:17-69
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:25:25-66
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:17-77
+ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:27:27-74
+		ADDED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml:29:27-74
 uses-sdk
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
-MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:5:5-44
-MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:5:5-44
-MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1bffc9968b17440527d88eaeea3fd36b/transformed/library-release/AndroidManifest.xml:5:5-44
-MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1bffc9968b17440527d88eaeea3fd36b/transformed/library-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8dc491a1750cc0c4831d53251436c94c/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material:material:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8dc491a1750cc0c4831d53251436c94c/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abb56dc14d45d1f3ad72e440eb5d885b/transformed/material-ripple/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abb56dc14d45d1f3ad72e440eb5d885b/transformed/material-ripple/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/736206704188a26f6e42994317c083e1/transformed/animation-core/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/736206704188a26f6e42994317c083e1/transformed/animation-core/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f7bc9861cf761a9f1280fcfc2f1350a8/transformed/animation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f7bc9861cf761a9f1280fcfc2f1350a8/transformed/animation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f9e4b73d726fecce9534e55d77a6a80e/transformed/foundation-layout/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f9e4b73d726fecce9534e55d77a6a80e/transformed/foundation-layout/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1ff5743f8fab7672933e028451c60248/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
-MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1ff5743f8fab7672933e028451c60248/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80e80468d9536e0317d2997608229e08/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/80e80468d9536e0317d2997608229e08/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4718d44d7f5e34decd8c8f7a33fcfcb6/transformed/ui-unit/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4718d44d7f5e34decd8c8f7a33fcfcb6/transformed/ui-unit/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/28e8af65cb9d872537caa1c40a627874/transformed/ui-geometry/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/28e8af65cb9d872537caa1c40a627874/transformed/ui-geometry/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3a1538184d82fbb7822e816c1b6d34d3/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3a1538184d82fbb7822e816c1b6d34d3/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/56c0611fd4e957b36fa4ea5bd824638a/transformed/ui-util/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/56c0611fd4e957b36fa4ea5bd824638a/transformed/ui-util/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0d9126ba5b0202bf130279458e1c9730/transformed/ui-text/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0d9126ba5b0202bf130279458e1c9730/transformed/ui-text/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/7b2e9a91e0383596c3a606bcd99f419b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/7b2e9a91e0383596c3a606bcd99f419b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/39b53742c5b7a30d58dde601bc99d92f/transformed/navigationevent/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/39b53742c5b7a30d58dde601bc99d92f/transformed/navigationevent/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6492f0471f93024b2083a8563656a250/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6492f0471f93024b2083a8563656a250/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/025a65e29d8b0a82433e3086630a16bb/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/025a65e29d8b0a82433e3086630a16bb/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/879ebafbd3f3e3db20fc5e7e74e0cee4/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/879ebafbd3f3e3db20fc5e7e74e0cee4/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/64dc95ccad32bb63e4f54f40fa349d1a/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/64dc95ccad32bb63e4f54f40fa349d1a/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fcc6134d244f3e07f702b71442d3322c/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fcc6134d244f3e07f702b71442d3322c/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f29b99da65b99a7cda24213d560f5774/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f29b99da65b99a7cda24213d560f5774/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/665e46dba94189c1b1351a920830f28e/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/665e46dba94189c1b1351a920830f28e/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2aee8cec0f9a7c4ed781bfde3d573ea2/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2aee8cec0f9a7c4ed781bfde3d573ea2/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5838e0c1214a053f1c2f52cbe8cd54fc/transformed/savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5838e0c1214a053f1c2f52cbe8cd54fc/transformed/savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2c8e66dfb1760b3e908bf868c406f559/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2c8e66dfb1760b3e908bf868c406f559/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bc83bd7894d1441a348ad79d3ff57f29/transformed/runtime/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bc83bd7894d1441a348ad79d3ff57f29/transformed/runtime/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/deac881b698bbf2643696062265979c2/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/deac881b698bbf2643696062265979c2/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/63648bfda6693b757dab5f1ebe168626/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/63648bfda6693b757dab5f1ebe168626/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3086fda9c150608bb754f0ce1eb7196d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3086fda9c150608bb754f0ce1eb7196d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/33a052f9dc4570bd2038d7073ca377d3/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/33a052f9dc4570bd2038d7073ca377d3/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9938becf2cf5f3ff8c8e85b1cb259920/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9938becf2cf5f3ff8c8e85b1cb259920/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/220d5c876c46f7b7791614b42c68744d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/220d5c876c46f7b7791614b42c68744d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/af454fa896ebd278358e63074182bc52/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/af454fa896ebd278358e63074182bc52/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9045d5e6813a0c4c049f685be956f723/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9045d5e6813a0c4c049f685be956f723/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0891c8dda678eda660ff8a6a0db15e7d/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0891c8dda678eda660ff8a6a0db15e7d/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/85b52a7ae1e32da52d29a957d54e8621/transformed/activity-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/85b52a7ae1e32da52d29a957d54e8621/transformed/activity-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4e9cb767fae0e53a79dae870987d48f2/transformed/activity-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4e9cb767fae0e53a79dae870987d48f2/transformed/activity-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/d14f8be647c79770a325cfc1c4745bb0/transformed/activity-compose-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.12.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/d14f8be647c79770a325cfc1c4745bb0/transformed/activity-compose-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [:shared] /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:shared] /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [io.agora.rtc:full-sdk:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1646885c7b9533a6fd062e921c526b6a/transformed/full-sdk-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-sdk:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1646885c7b9533a6fd062e921c526b6a/transformed/full-sdk-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c94525a0c67baac70b93e24bce24d3c0/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c94525a0c67baac70b93e24bce24d3c0/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/25605da595e725ba6ba6ecc63e4549ba/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/25605da595e725ba6ba6ecc63e4549ba/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/486cdd67f227a2808bc635bd1112eaa8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/486cdd67f227a2808bc635bd1112eaa8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/18a76c8ab79347ecf54ab720e63d27b4/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/18a76c8ab79347ecf54ab720e63d27b4/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2a00f8063b4c52ca2336f15679c06ed6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2a00f8063b4c52ca2336f15679c06ed6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e19ff428039d5878246f1d1e553fb1b6/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e19ff428039d5878246f1d1e553fb1b6/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
-MERGED from [io.agora.rtc:full-rtc-basic:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/607435246d17f0b7bba090baf0a62c9d/transformed/full-rtc-basic-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-rtc-basic:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/607435246d17f0b7bba090baf0a62c9d/transformed/full-rtc-basic-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:ains:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9956689b6da4fb7df25fa1f43d72c2fe/transformed/ains-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:ains:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9956689b6da4fb7df25fa1f43d72c2fe/transformed/ains-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:audio-beauty:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2b5f4c931ac930d8cf090f9ef461ee49/transformed/audio-beauty-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:audio-beauty:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2b5f4c931ac930d8cf090f9ef461ee49/transformed/audio-beauty-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:clear-vision:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/93965253943e373ac2736a21a4d0123d/transformed/clear-vision-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:clear-vision:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/93965253943e373ac2736a21a4d0123d/transformed/clear-vision-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-content-inspect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abc29081a29d56ed2a8eec1d621974b3/transformed/full-content-inspect-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-content-inspect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/abc29081a29d56ed2a8eec1d621974b3/transformed/full-content-inspect-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:screen-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/07cb0c0151b6aee86abd59ec0a2e973b/transformed/screen-capture-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:screen-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/07cb0c0151b6aee86abd59ec0a2e973b/transformed/screen-capture-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-virtual-background:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/ee324790119f2e947660bcf1fb568db2/transformed/full-virtual-background-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-virtual-background:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/ee324790119f2e947660bcf1fb568db2/transformed/full-virtual-background-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:spatial-audio:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ad832335c4e0f51abe229048b8ed2d6/transformed/spatial-audio-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:spatial-audio:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ad832335c4e0f51abe229048b8ed2d6/transformed/spatial-audio-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:5:5-73
-MERGED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:5:5-73
-MERGED from [io.agora.rtc:aiaec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/36c60d91833295a14f07e651610f9714/transformed/aiaec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:aiaec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/36c60d91833295a14f07e651610f9714/transformed/aiaec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-vqa:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/969f1513241052bd38cb8d7c7ad267c2/transformed/full-vqa-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-vqa:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/969f1513241052bd38cb8d7c7ad267c2/transformed/full-vqa-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-face-detect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/eace43acf0ab43ca48a47317103de5f2/transformed/full-face-detect-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-face-detect:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/eace43acf0ab43ca48a47317103de5f2/transformed/full-face-detect-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-face-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c80550b22788dcf4759a0afe3396be53/transformed/full-face-capture-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-face-capture:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c80550b22788dcf4759a0afe3396be53/transformed/full-face-capture-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-voice-drive:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c2b956381c8c2253326377c88c388866/transformed/full-voice-drive-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-voice-drive:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c2b956381c8c2253326377c88c388866/transformed/full-voice-drive-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/27e33948c898771919ffa47b4817836a/transformed/full-video-codec-enc-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/27e33948c898771919ffa47b4817836a/transformed/full-video-codec-enc-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/73cbdf118afff73b276b56467d6d5718/transformed/full-video-codec-dec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/73cbdf118afff73b276b56467d6d5718/transformed/full-video-codec-dec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-av1-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fb1b819ae81b04fa6c5ecd6c3bd8f1fa/transformed/full-video-av1-codec-enc-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-av1-codec-enc:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fb1b819ae81b04fa6c5ecd6c3bd8f1fa/transformed/full-video-av1-codec-enc-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-av1-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2f3fa9bd278385db3b547fabec276a37/transformed/full-video-av1-codec-dec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.rtc:full-video-av1-codec-dec:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2f3fa9bd278385db3b547fabec276a37/transformed/full-video-av1-codec-dec-4.6.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.infra:aosl:1.3.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3782bd3923bd9d90cf7ef32a4f03d7d3/transformed/aosl-1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [io.agora.infra:aosl:1.3.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3782bd3923bd9d90cf7ef32a4f03d7d3/transformed/aosl-1.3.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/e5bb7bf37deb1455b17f678b65f10a4f/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/e5bb7bf37deb1455b17f678b65f10a4f/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b0396fb2071973b797e64cce1ebb36bf/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b0396fb2071973b797e64cce1ebb36bf/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b9f108f18aa176865c56896d4663a5e8/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b9f108f18aa176865c56896d4663a5e8/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dfd945e6b406083a49e2f02e12195f02/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dfd945e6b406083a49e2f02e12195f02/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d20704a6f0aa7f98959984748c3ac24/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d20704a6f0aa7f98959984748c3ac24/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9a3c39e7c123b6d6fc01b095a2448b59/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9a3c39e7c123b6d6fc01b095a2448b59/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dae5fb1e156543cef61b5c68e1aff0d1/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.ui:ui-backhandler-android-debug:1.9.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dae5fb1e156543cef61b5c68e1aff0d1/transformed/ui-backhandler-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/f21182e55b965dbfcff9393263fcfec0/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/f21182e55b965dbfcff9393263fcfec0/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/10004199246f37f646ede5d1817d46cc/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/10004199246f37f646ede5d1817d46cc/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/325a2f912a5467f98d9aabd55480a6e7/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/325a2f912a5467f98d9aabd55480a6e7/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/48d2c7189867c2e04fe4c5af1edf3a47/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/48d2c7189867c2e04fe4c5af1edf3a47/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a11556acfe5b22cb95582006640c2b22/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a11556acfe5b22cb95582006640c2b22/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d057f90166c7fafb05abd2e3f3a128a/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2d057f90166c7fafb05abd2e3f3a128a/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/27eb61b74c0f7098408fd6c963a40f5b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/27eb61b74c0f7098408fd6c963a40f5b/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/47548896ed90daec5b7d60896937ab41/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/47548896ed90daec5b7d60896937ab41/transformed/navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/107b5f014e082756b4a3ae5126c6d309/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/107b5f014e082756b4a3ae5126c6d309/transformed/navigationevent-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0b779f0bd2c6fb199cccc41fd464da99/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0b779f0bd2c6fb199cccc41fd464da99/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9422fca56eb3b1611f8f5641c3b01630/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9422fca56eb3b1611f8f5641c3b01630/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6c63b8923a62666182ed717588e6cb44/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6c63b8923a62666182ed717588e6cb44/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a1dcdfb2158e904f557eedef4f737c3b/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a1dcdfb2158e904f557eedef4f737c3b/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce7c6d2c54cd34b04edb060f34da064d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce7c6d2c54cd34b04edb060f34da064d/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6f1ee6341716adbcff6ad34be88975e0/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6f1ee6341716adbcff6ad34be88975e0/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5e25cebbf8615a442296fde7b4c7e8c7/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5e25cebbf8615a442296fde7b4c7e8c7/transformed/savedstate-ktx-1.3.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4f2481b3fee41a32f4fc227cb1521d51/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4f2481b3fee41a32f4fc227cb1521d51/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/1ca025a76cfa72db11033bdd89a0ca36/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/1ca025a76cfa72db11033bdd89a0ca36/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/717ea45faa22fefc82a9abb90b2f6ec0/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/717ea45faa22fefc82a9abb90b2f6ec0/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ee5a79db14b9d96b7254f1160f05c7b8/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ee5a79db14b9d96b7254f1160f05c7b8/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6da36f21330cf19053518645a80a2ab5/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6da36f21330cf19053518645a80a2ab5/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/125fcc7c8aaf334db22a461800c99933/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/125fcc7c8aaf334db22a461800c99933/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cb40b8cc31ff63d573ab55eb5973524/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cb40b8cc31ff63d573ab55eb5973524/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/763c71f63e76ae036170299f7d3187c2/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/763c71f63e76ae036170299f7d3187c2/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9609e9d1c54eff68946d27537051b1e9/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9609e9d1c54eff68946d27537051b1e9/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/db65a07846d91f6295452da92634614a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/db65a07846d91f6295452da92634614a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/394723b182b5ba5e55aa1c298d56cc69/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/394723b182b5ba5e55aa1c298d56cc69/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/08c544d8cb3e41c8d274d5f54966f6fa/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/08c544d8cb3e41c8d274d5f54966f6fa/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/07ff91925fcf5a3da7482446df43652e/transformed/activity-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/07ff91925fcf5a3da7482446df43652e/transformed/activity-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5850752e4c9f7f5f9e4c32936b421945/transformed/activity-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5850752e4c9f7f5f9e4c32936b421945/transformed/activity-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/96d2c5de1be44a38aba17ab76ea7cee0/transformed/activity-compose-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.12.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/96d2c5de1be44a38aba17ab76ea7cee0/transformed/activity-compose-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/mobileangellira/Documents/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/mobileangellira/Documents/Televida/poc-agoraio/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [io.agora.rtc:full-sdk:4.3.2] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/566d61ff9bf85d1ccb3d797702efd0d8/transformed/full-sdk-4.3.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:4.3.2] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/566d61ff9bf85d1ccb3d797702efd0d8/transformed/full-sdk-4.3.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ae18406f9ffdb269cfc2a569fc35acd2/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ae18406f9ffdb269cfc2a569fc35acd2/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce44c6fc7df424808521dbd44330caa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce44c6fc7df424808521dbd44330caa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0ff0537de8db291dd0f447f8904d57a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0ff0537de8db291dd0f447f8904d57a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4d8ff88cf68c25136af9154286fe8e07/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4d8ff88cf68c25136af9154286fe8e07/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/24b193fb65b5eb8e910386d200b56ceb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/24b193fb65b5eb8e910386d200b56ceb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/010b5055b115045698e03305b140124a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/010b5055b115045698e03305b140124a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/AndroidManifest.xml
 provider#org.jetbrains.compose.resources.AndroidContextProvider
-ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:8:9-13:20
+ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:8:9-13:20
 	android:enabled
-		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:11:13-35
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:11:13-35
 	android:authorities
-		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:10:13-84
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:10:13-84
 	android:exported
-		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:12:13-37
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/b6774c489d84cad30f107687397b3c90/transformed/library-release/AndroidManifest.xml:9:13-82
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.9.3] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/cd5ed46c105b98bd7f22f182b09d2cc6/transformed/library-release/AndroidManifest.xml:9:13-82
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c89598bf48dade2fa183dd0217e09f39/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/13c104870cc2ad27563f814f4a94b957/transformed/ui-tooling/AndroidManifest.xml:24:13-71
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 permission#br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 uses-permission#br.med.televida.pocagoraio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.16.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:7:5-77
-	android:name
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:7:22-74
-uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
-ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:8:5-94
-	android:name
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:8:22-91
-activity#io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity
-ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:11:9-14:63
-	android:screenOrientation
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:13:13-52
-	android:configChanges
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:12:13-59
-	android:theme
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:14:13-61
-	android:name
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:11:19-89
-service#io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService
-ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:16:9-19:19
-	android:foregroundServiceType
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:18:13-60
-	android:name
-		ADDED from [io.agora.rtc:full-screen-sharing:4.6.1] /Users/opconsultoria/.gradle/caches/8.14.3/transforms/30f8e8e770315c6676d288c8a5b7ea81/transformed/full-screen-sharing-4.6.1/AndroidManifest.xml:17:13-73
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
