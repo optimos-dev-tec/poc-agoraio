@@ -17,14 +17,7 @@ internal val Res.drawable.compose_multiplatform: DrawableResource by lazy {
       ))
     }
 
-internal val Res.drawable.`compose_multiplatform 2`: DrawableResource by lazy {
-      DrawableResource("drawable:compose_multiplatform 2", setOf(
-        ResourceItem(setOf(), "${MD}drawable/compose-multiplatform 2.xml", -1, -1),
-      ))
-    }
-
 @InternalResourceApi
 internal fun _collectAndroidMainDrawable0Resources(map: MutableMap<String, DrawableResource>) {
   map.put("compose_multiplatform", Res.drawable.compose_multiplatform)
-  map.put("compose_multiplatform 2", Res.drawable.`compose_multiplatform 2`)
 }
