@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml:2:13-83
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml:2:13-83
+ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml:2:13-83
+INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml:2:13-83
 	package
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml
+		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml
 	xmlns:android
-		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml:2:23-81
+		ADDED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml:2:23-81
 uses-sdk
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml reason: use-sdk injection requested
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml
-INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml
+INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml reason: use-sdk injection requested
+INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml
+INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml
 	android:targetSdkVersion
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml
+		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml
 	android:minSdkVersion
-		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6414968554580241553.xml
+		INJECTED from /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest13819135958703623252.xml

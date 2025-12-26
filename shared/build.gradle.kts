@@ -1,13 +1,13 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.plugin.mpp.TestExecutable
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-//    alias(libs.plugins.kotlinCocoapods)
+    alias(libs.plugins.kotlinCocoapods)
 }
 
-val xcFrameworkName = "AgoraRtcEngine_iOS_Beta"
 
 kotlin {
     androidTarget {
@@ -16,31 +16,26 @@ kotlin {
         }
     }
 
-    val xcf = XCFramework(xcFrameworkName)
-    listOf(
-        iosX64(),
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
+    iosArm64()
+    iosSimulatorArm64()
+
+    cocoapods {
+        version = "1.0.0"
+        summary = "Shared module for PocAgoraIO"
+        homepage = "Link to your project homepage"
+        ios.deploymentTarget = "14.1" // Use uma versão compatível
+        podfile = project.file("../iosApp/Podfile") // Caminho para o Podfile do seu app iOS
+
+        // Adiciona a dependência do SDK do Agora via Pod
+        pod("AgoraRtcEngine_iOS") {
+            version = "4.3.0" // Use a versão mais recente ou a desejada
+        }
+
+        framework {
             baseName = "Shared"
             isStatic = true
-            xcf.add(this)
         }
     }
-
-//    cocoapods {
-//        version = "1.0.0"
-//        summary = "Shared module for PocAgoraIO"
-//        homepage = "Link to your project homepage"
-//        ios.deploymentTarget = "14.1" // Use uma versão compatível
-//        podfile = project.file("../iosApp/Podfile") // Caminho para o Podfile do seu app iOS
-//
-//        // Adiciona a dependência do SDK do Agora via Pod
-//        pod("AgoraRtcEngine_iOS") {
-//            version = "4.3.0" // Use a versão mais recente ou a desejada
-//        }
-//    }
 
     sourceSets {
 
