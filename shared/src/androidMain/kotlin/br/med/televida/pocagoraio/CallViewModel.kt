@@ -7,42 +7,35 @@ import br.med.televida.pocagoraio.controller.createVideoCallController
 import br.med.televida.pocagoraio.domain.CallEvent
 import br.med.televida.pocagoraio.domain.CallState
 import br.med.televida.pocagoraio.usecase.VideoCallUseCase
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.cancel
+import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 
-/**
- * A implementação REAL (`actual`) do CallViewModel para a plataforma Android.
- *
- * Esta classe cumpre o contrato definido pela `expect class` em commonMain.
- * Seu construtor recebe um `Context` do Android, que é necessário para
- * inicializar o `AndroidVideoController`.
- */
 actual class CallViewModel(context: Context) {
+
     private val viewModelScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
     private val videoCallUseCase: VideoCallUseCase
 
-    // Cumprindo as "promessas" da classe 'expect'
-    actual val controller: VideoCallController get() = videoCallUseCase.controller
-    actual  val callState: StateFlow<CallState> get() = videoCallUseCase.controller.callState
-    actual val callEvents: SharedFlow<CallEvent> get() = videoCallUseCase.controller.events
+    actual val controller: VideoCallController
+        get() = videoCallUseCase.controller
+
+    actual val callState: StateFlow<CallState>
+        get() = controller.callState
+
+    actual val callEvents: SharedFlow<CallEvent>
+        get() = controller.events
 
     init {
-        // O ViewModel constrói a árvore de dependências para a sua feature.
         val controller = createVideoCallController(context, viewModelScope)
         videoCallUseCase = VideoCallUseCase(controller)
 
-        // Inicializa o UseCase com as configurações.
-        // É uma boa prática mover o App ID para o build.gradle no futuro.
         val config = AgoraConfig(
-            appId = "SEU_APP_ID_AQUI", // Seu App ID
-            token = "SEU_TOKEN_AQUI", // Usar 'null' para testes sem um servidor de token
+            appId = "SEU_APP_ID_REAL",
             channelName = "poc-channel-televida",
-            uid = 0 // 0 deixa o Agora escolher um UID dinamicamente
+            token = null, // correto para testes
+            uid = 0
         )
+
         videoCallUseCase.initializeCall(config)
     }
 

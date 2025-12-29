@@ -4,7 +4,7 @@
             "outputFile": "br.med.televida.pocagoraio.composeApp-mergeDebugResources-35:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/res/values-sk/values-sk.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/res/values-sk/values-sk.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/res/values-sk/values-sk.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,143,227",
-                        "endColumns": "87,83,86",
-                        "endOffsets": "138,222,309"
-                    },
-                    "to": {
-                        "startLines": "2,96,97",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "105,9869,9953",
-                        "endColumns": "87,83,86",
-                        "endOffsets": "188,9948,10035"
-                    }
-                },
-                {
-                    "source": "/Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/res/values-sk/values-sk.xml",
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "193,289,391,492,590,700,808,9508",
                         "endColumns": "95,101,100,97,109,107,121,100",
                         "endOffsets": "284,386,487,585,695,803,925,9604"
+                    }
+                },
+                {
+                    "source": "/Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,143,227",
+                        "endColumns": "87,83,86",
+                        "endOffsets": "138,222,309"
+                    },
+                    "to": {
+                        "startLines": "2,96,97",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,9869,9953",
+                        "endColumns": "87,83,86",
+                        "endOffsets": "188,9948,10035"
                     }
                 }
             ]

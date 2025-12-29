@@ -1,43 +1,43 @@
-br.med.televida.pocagoraio.composeApp-annotation-experimental-1.4.1-0 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/010b5055b115045698e03305b140124a/transformed/annotation-experimental-1.4.1/res
-br.med.televida.pocagoraio.composeApp-activity-ktx-1.12.0-1 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/07ff91925fcf5a3da7482446df43652e/transformed/activity-ktx-1.12.0/res
-br.med.televida.pocagoraio.composeApp-material-icons-core-1.0.0-2 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/08c544d8cb3e41c8d274d5f54966f6fa/transformed/material-icons-core-1.0.0/res
-br.med.televida.pocagoraio.composeApp-lifecycle-livedata-core-2.9.4-3 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/0b779f0bd2c6fb199cccc41fd464da99/transformed/lifecycle-livedata-core-2.9.4/res
-br.med.televida.pocagoraio.composeApp-customview-poolingcontainer-1.0.0-4 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/125fcc7c8aaf334db22a461800c99933/transformed/customview-poolingcontainer-1.0.0/res
-br.med.televida.pocagoraio.composeApp-emoji2-1.4.0-5 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/187192a3bb02a53838ecf0b78a0bf505/transformed/emoji2-1.4.0/res
-br.med.televida.pocagoraio.composeApp-core-ktx-1.16.0-6 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cb40b8cc31ff63d573ab55eb5973524/transformed/core-ktx-1.16.0/res
-br.med.televida.pocagoraio.composeApp-material3-7 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/2cdd63f0b16c0d2f1f05e2067afda9d5/transformed/material3/res
-br.med.televida.pocagoraio.composeApp-startup-runtime-1.1.1-8 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/30f7921b8bca8d60ef0c440f06e1190b/transformed/startup-runtime-1.1.1/res
-br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-compose-release-9 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/394723b182b5ba5e55aa1c298d56cc69/transformed/lifecycle-viewmodel-compose-release/res
-br.med.televida.pocagoraio.composeApp-foundation-release-10 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/3e6da6a15186eee1c079ed9a45f732bc/transformed/foundation-release/res
-br.med.televida.pocagoraio.composeApp-navigationevent-11 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/47548896ed90daec5b7d60896937ab41/transformed/navigationevent/res
-br.med.televida.pocagoraio.composeApp-ui-graphics-release-12 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/48d2c7189867c2e04fe4c5af1edf3a47/transformed/ui-graphics-release/res
-br.med.televida.pocagoraio.composeApp-tracing-1.2.0-13 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4d8ff88cf68c25136af9154286fe8e07/transformed/tracing-1.2.0/res
-br.med.televida.pocagoraio.composeApp-savedstate-release-14 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/4f2481b3fee41a32f4fc227cb1521d51/transformed/savedstate-release/res
-br.med.televida.pocagoraio.composeApp-full-sdk-4.3.2-15 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/566d61ff9bf85d1ccb3d797702efd0d8/transformed/full-sdk-4.3.2/res
-br.med.televida.pocagoraio.composeApp-activity-1.12.0-16 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5850752e4c9f7f5f9e4c32936b421945/transformed/activity-1.12.0/res
-br.med.televida.pocagoraio.composeApp-lifecycle-process-2.9.4-17 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5dca3160615d69249287b515b1601471/transformed/lifecycle-process-2.9.4/res
-br.med.televida.pocagoraio.composeApp-savedstate-ktx-1.3.3-18 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/5e25cebbf8615a442296fde7b4c7e8c7/transformed/savedstate-ktx-1.3.3/res
-br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-savedstate-release-19 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6c63b8923a62666182ed717588e6cb44/transformed/lifecycle-viewmodel-savedstate-release/res
-br.med.televida.pocagoraio.composeApp-lifecycle-runtime-compose-release-20 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/6da36f21330cf19053518645a80a2ab5/transformed/lifecycle-runtime-compose-release/res
-br.med.televida.pocagoraio.composeApp-graphics-path-1.0.1-21 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/9609e9d1c54eff68946d27537051b1e9/transformed/graphics-path-1.0.1/res
-br.med.televida.pocagoraio.composeApp-activity-compose-1.12.0-22 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/96d2c5de1be44a38aba17ab76ea7cee0/transformed/activity-compose-1.12.0/res
-br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-ktx-2.9.4-23 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a1dcdfb2158e904f557eedef4f737c3b/transformed/lifecycle-viewmodel-ktx-2.9.4/res
-br.med.televida.pocagoraio.composeApp-ui-release-24 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a3d07fbd669e89520446d0fa8ddf2f8c/transformed/ui-release/res
-br.med.televida.pocagoraio.composeApp-profileinstaller-1.4.0-25 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/a444a8f082537141f6b79992dea88cd1/transformed/profileinstaller-1.4.0/res
-br.med.televida.pocagoraio.composeApp-core-viewtree-1.0.0-26 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ae18406f9ffdb269cfc2a569fc35acd2/transformed/core-viewtree-1.0.0/res
-br.med.televida.pocagoraio.composeApp-material-1.0.0-27 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/b0396fb2071973b797e64cce1ebb36bf/transformed/material-1.0.0/res
-br.med.televida.pocagoraio.composeApp-core-runtime-2.2.0-28 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce44c6fc7df424808521dbd44330caa4/transformed/core-runtime-2.2.0/res
-br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-release-29 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/ce7c6d2c54cd34b04edb060f34da064d/transformed/lifecycle-viewmodel-release/res
-br.med.televida.pocagoraio.composeApp-ui-backhandler-debug-30 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/dae5fb1e156543cef61b5c68e1aff0d1/transformed/ui-backhandler-debug/res
-br.med.televida.pocagoraio.composeApp-lifecycle-runtime-release-31 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/db65a07846d91f6295452da92634614a/transformed/lifecycle-runtime-release/res
-br.med.televida.pocagoraio.composeApp-core-1.16.0-32 /Users/mobileangellira/.gradle/caches/8.14.3/transforms/fd988dc71e30fd239722ad59349db34f/transformed/core-1.16.0/res
-br.med.televida.pocagoraio.composeApp-pngs-33 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/build/generated/res/pngs/debug
-br.med.televida.pocagoraio.composeApp-resValues-34 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/build/generated/res/resValues/debug
-br.med.televida.pocagoraio.composeApp-packageDebugResources-35 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-br.med.televida.pocagoraio.composeApp-packageDebugResources-36 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-br.med.televida.pocagoraio.composeApp-debug-37 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
-br.med.televida.pocagoraio.composeApp-androidDebug-38 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidDebug/res
-br.med.televida.pocagoraio.composeApp-androidMain-39 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/androidMain/res
-br.med.televida.pocagoraio.composeApp-debug-40 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/debug/res
-br.med.televida.pocagoraio.composeApp-main-41 /Users/mobileangellira/Documents/Televida/poc-agoraio/composeApp/src/main/res
-br.med.televida.pocagoraio.composeApp-debug-42 /Users/mobileangellira/Documents/Televida/poc-agoraio/shared/build/intermediates/packaged_res/debug/packageDebugResources
+br.med.televida.pocagoraio.composeApp-lifecycle-livedata-core-2.9.4-0 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/025a65e29d8b0a82433e3086630a16bb/transformed/lifecycle-livedata-core-2.9.4/res
+br.med.televida.pocagoraio.composeApp-material-icons-core-1.0.0-1 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/0891c8dda678eda660ff8a6a0db15e7d/transformed/material-icons-core-1.0.0/res
+br.med.televida.pocagoraio.composeApp-tracing-1.2.0-2 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/18a76c8ab79347ecf54ab720e63d27b4/transformed/tracing-1.2.0/res
+br.med.televida.pocagoraio.composeApp-ui-backhandler-debug-3 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/1ff5743f8fab7672933e028451c60248/transformed/ui-backhandler-debug/res
+br.med.televida.pocagoraio.composeApp-material3-4 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2068a227e3cf4c7b6bea85560c4eeab9/transformed/material3/res
+br.med.televida.pocagoraio.composeApp-graphics-path-1.0.1-5 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/220d5c876c46f7b7791614b42c68744d/transformed/graphics-path-1.0.1/res
+br.med.televida.pocagoraio.composeApp-core-runtime-2.2.0-6 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/25605da595e725ba6ba6ecc63e4549ba/transformed/core-runtime-2.2.0/res
+br.med.televida.pocagoraio.composeApp-savedstate-ktx-1.3.3-7 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/2aee8cec0f9a7c4ed781bfde3d573ea2/transformed/savedstate-ktx-1.3.3/res
+br.med.televida.pocagoraio.composeApp-customview-poolingcontainer-1.0.0-8 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3086fda9c150608bb754f0ce1eb7196d/transformed/customview-poolingcontainer-1.0.0/res
+br.med.televida.pocagoraio.composeApp-core-ktx-1.16.0-9 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/33a052f9dc4570bd2038d7073ca377d3/transformed/core-ktx-1.16.0/res
+br.med.televida.pocagoraio.composeApp-navigationevent-10 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/39b53742c5b7a30d58dde601bc99d92f/transformed/navigationevent/res
+br.med.televida.pocagoraio.composeApp-ui-graphics-release-11 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3a1538184d82fbb7822e816c1b6d34d3/transformed/ui-graphics-release/res
+br.med.televida.pocagoraio.composeApp-startup-runtime-1.1.1-12 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/3bc30b7c98f983d76127c7d2da4794d6/transformed/startup-runtime-1.1.1/res
+br.med.televida.pocagoraio.composeApp-lifecycle-process-2.9.4-13 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/42f33386a16659b98b6c2fbf7c1572de/transformed/lifecycle-process-2.9.4/res
+br.med.televida.pocagoraio.composeApp-activity-1.12.0-14 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/4e9cb767fae0e53a79dae870987d48f2/transformed/activity-1.12.0/res
+br.med.televida.pocagoraio.composeApp-savedstate-release-15 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/5838e0c1214a053f1c2f52cbe8cd54fc/transformed/savedstate-release/res
+br.med.televida.pocagoraio.composeApp-profileinstaller-1.4.0-16 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/593bb8713ebe8cd85383d27e4176cc8a/transformed/profileinstaller-1.4.0/res
+br.med.televida.pocagoraio.composeApp-lifecycle-runtime-compose-release-17 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/63648bfda6693b757dab5f1ebe168626/transformed/lifecycle-runtime-compose-release/res
+br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-savedstate-release-18 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/64dc95ccad32bb63e4f54f40fa349d1a/transformed/lifecycle-viewmodel-savedstate-release/res
+br.med.televida.pocagoraio.composeApp-core-1.16.0-19 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/6ee3643462d45fe09238f268dff595d6/transformed/core-1.16.0/res
+br.med.televida.pocagoraio.composeApp-full-sdk-4.3.2-20 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/725945e59e9b5c31caf4fd0a49349c95/transformed/full-sdk-4.3.2/res
+br.med.televida.pocagoraio.composeApp-activity-ktx-1.12.0-21 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/85b52a7ae1e32da52d29a957d54e8621/transformed/activity-ktx-1.12.0/res
+br.med.televida.pocagoraio.composeApp-ui-release-22 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8b9912e1c29e313b3b161813d289c572/transformed/ui-release/res
+br.med.televida.pocagoraio.composeApp-material-1.0.0-23 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/8dc491a1750cc0c4831d53251436c94c/transformed/material-1.0.0/res
+br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-compose-release-24 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/9045d5e6813a0c4c049f685be956f723/transformed/lifecycle-viewmodel-compose-release/res
+br.med.televida.pocagoraio.composeApp-lifecycle-runtime-release-25 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/af454fa896ebd278358e63074182bc52/transformed/lifecycle-runtime-release/res
+br.med.televida.pocagoraio.composeApp-foundation-release-26 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/bff26c807092c15e7fcbf17b11738f4a/transformed/foundation-release/res
+br.med.televida.pocagoraio.composeApp-core-viewtree-1.0.0-27 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/c94525a0c67baac70b93e24bce24d3c0/transformed/core-viewtree-1.0.0/res
+br.med.televida.pocagoraio.composeApp-activity-compose-1.12.0-28 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/d14f8be647c79770a325cfc1c4745bb0/transformed/activity-compose-1.12.0/res
+br.med.televida.pocagoraio.composeApp-annotation-experimental-1.4.1-29 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/e19ff428039d5878246f1d1e553fb1b6/transformed/annotation-experimental-1.4.1/res
+br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-release-30 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f29b99da65b99a7cda24213d560f5774/transformed/lifecycle-viewmodel-release/res
+br.med.televida.pocagoraio.composeApp-emoji2-1.4.0-31 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/f3ba33a43babe604ce1ded18bdb3a20a/transformed/emoji2-1.4.0/res
+br.med.televida.pocagoraio.composeApp-lifecycle-viewmodel-ktx-2.9.4-32 /Users/opconsultoria/.gradle/caches/8.14.3/transforms/fcc6134d244f3e07f702b71442d3322c/transformed/lifecycle-viewmodel-ktx-2.9.4/res
+br.med.televida.pocagoraio.composeApp-pngs-33 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/build/generated/res/pngs/debug
+br.med.televida.pocagoraio.composeApp-resValues-34 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/build/generated/res/resValues/debug
+br.med.televida.pocagoraio.composeApp-packageDebugResources-35 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+br.med.televida.pocagoraio.composeApp-packageDebugResources-36 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+br.med.televida.pocagoraio.composeApp-debug-37 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/build/intermediates/merged_res/debug/mergeDebugResources
+br.med.televida.pocagoraio.composeApp-androidDebug-38 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidDebug/res
+br.med.televida.pocagoraio.composeApp-androidMain-39 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/androidMain/res
+br.med.televida.pocagoraio.composeApp-debug-40 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/debug/res
+br.med.televida.pocagoraio.composeApp-main-41 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/composeApp/src/main/res
+br.med.televida.pocagoraio.composeApp-debug-42 /Users/opconsultoria/Library/Mobile Documents/com~apple~CloudDocs/Televida/poc-agoraio/shared/build/intermediates/packaged_res/debug/packageDebugResources
