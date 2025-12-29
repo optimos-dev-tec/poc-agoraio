@@ -1,15 +1,22 @@
 package br.med.televida.pocagoraio
 
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.runtime.*
-import org.jetbrains.compose.ui.tooling.preview.Preview
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import br.med.televida.pocagoraio.ui.CallScreen
+import br.med.televida.pocagoraio.viewmodel.CallViewModel
 
 @Composable
-@Preview
 fun App() {
+    val context = LocalContext.current
+
+    // O ViewModel é criado aqui, onde o Context está disponível
+    val viewModel = remember {
+        CallViewModel(context)
+    }
+
     MaterialTheme {
-        // Agora, o App() é responsável apenas por configurar o tema
-        // e chamar a tela principal da nossa POC.
-        CallScreen()
+        CallScreen(viewModel = viewModel)
     }
 }
