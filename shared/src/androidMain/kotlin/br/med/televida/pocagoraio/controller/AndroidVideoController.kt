@@ -1,6 +1,7 @@
 package br.med.televida.pocagoraio.controller
 
 import android.content.Context
+import android.util.Log
 import android.view.SurfaceView
 import br.med.televida.pocagoraio.config.AgoraConfig
 import br.med.televida.pocagoraio.domain.CallEvent
@@ -14,7 +15,7 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-class AndroidVideoController(
+class AndroidVideoCallController(
     private val context: Context,
     private val coroutineScope: CoroutineScope
 ) : VideoCallController, IRtcEngineEventHandler() {
@@ -28,35 +29,84 @@ class AndroidVideoController(
     private val _events = MutableSharedFlow<CallEvent>()
     override val events = _events.asSharedFlow()
 
-    override fun initialize(config: AgoraConfig) {
-        this.config = config
+    // ==========================
+    // Agora Callbacks
+    // ==========================
+
+    override fun onJoinChannelSuccess(channel: String, uid: Int, elapsed: Int) {
+        Log.d("AGORA", "Entrou no canal: $channel uid=$uid")
+        _callState.value = CallState.Connected
 
         coroutineScope.launch {
-            _callState.emit(CallState.Initializing)
+            _events.emit(CallEvent.LocalJoined)
         }
+    }
+
+    override fun onUserJoined(uid: Int, elapsed: Int) {
+        Log.d("AGORA", "Usuário remoto entrou: $uid")
+
+        coroutineScope.launch {
+            _events.emit(CallEvent.RemoteUserJoined(uid))
+        }
+    }
+
+    override fun onUserOffline(uid: Int, reason: Int) {
+        Log.d("AGORA", "Usuário remoto saiu: $uid")
+
+        coroutineScope.launch {
+            _events.emit(CallEvent.RemoteUserLeft(uid))
+        }
+    }
+
+    override fun onLeaveChannel(stats: RtcStats) {
+        Log.d("AGORA", "Saiu do canal")
+        _callState.value = CallState.Ended
+    }
+
+    override fun onError(err: Int) {
+        Log.e("AGORA", "Erro Agora: $err")
+
+        coroutineScope.launch {
+            _events.emit(CallEvent.Error("Agora error code: $err"))
+        }
+    }
+
+    override fun onConnectionStateChanged(state: Int, reason: Int) {
+        when (state) {
+            Constants.CONNECTION_STATE_RECONNECTING -> {
+                Log.w("AGORA", "Reconectando...")
+                _callState.value = CallState.Reconnecting
+            }
+        }
+    }
+
+    // ==========================
+    // Controller API
+    // ==========================
+
+    override fun initialize(config: AgoraConfig) {
+        Log.d("AGORA", "initialize() chamado")
+
+        this.config = config
+        _callState.value = CallState.Initializing
 
         val rtcConfig = RtcEngineConfig().apply {
             mContext = context
             mAppId = config.appId
-            mEventHandler = this@AndroidVideoController
+            mEventHandler = this@AndroidVideoCallController
         }
 
         rtcEngine = RtcEngine.create(rtcConfig)
-
-        rtcEngine?.apply {
-            enableVideo()
-            enableAudio()
-        }
+        rtcEngine?.enableVideo()
     }
 
     override fun join() {
         if (rtcEngine == null) {
-            throw IllegalStateException("Controller não inicializado")
+            throw IllegalStateException("RtcEngine não inicializado")
         }
 
-        coroutineScope.launch {
-            _callState.emit(CallState.Connecting)
-        }
+        Log.d("AGORA", "join() channel=${config.channelName}")
+        _callState.value = CallState.Connecting
 
         val options = ChannelMediaOptions().apply {
             channelProfile = Constants.CHANNEL_PROFILE_COMMUNICATION
@@ -72,6 +122,7 @@ class AndroidVideoController(
     }
 
     override fun leave() {
+        Log.d("AGORA", "leave()")
         rtcEngine?.stopPreview()
         rtcEngine?.leaveChannel()
     }
@@ -85,48 +136,19 @@ class AndroidVideoController(
     }
 
     override fun release() {
-        rtcEngine?.stopPreview()
-        rtcEngine?.leaveChannel()
+        Log.d("AGORA", "release()")
         RtcEngine.destroy()
         rtcEngine = null
+        _callState.value = CallState.Inactive
     }
 
-    /* ==================== AGORA CALLBACKS ==================== */
-
-    override fun onJoinChannelSuccess(channel: String, uid: Int, elapsed: Int) {
-        coroutineScope.launch {
-            _callState.emit(CallState.Connected)
-            _events.emit(CallEvent.LocalJoined)
-        }
-    }
-
-    override fun onUserJoined(uid: Int, elapsed: Int) {
-        coroutineScope.launch {
-            _events.emit(CallEvent.RemoteUserJoined(uid))
-        }
-    }
-
-    override fun onUserOffline(uid: Int, reason: Int) {
-        coroutineScope.launch {
-            _events.emit(CallEvent.RemoteUserLeft(uid))
-        }
-    }
-
-    override fun onLeaveChannel(stats: RtcStats) {
-        coroutineScope.launch {
-            _callState.emit(CallState.Ended)
-        }
-    }
-
-    override fun onError(err: Int) {
-        coroutineScope.launch {
-            _events.emit(CallEvent.Error("Agora error code: $err"))
-        }
-    }
-
-    /* ==================== VIDEO SETUP ==================== */
+    // ==========================
+    // Android-only helpers (UI)
+    // ==========================
 
     fun setupLocalVideo(surfaceView: SurfaceView) {
+        if (rtcEngine == null) return
+
         rtcEngine?.setupLocalVideo(
             VideoCanvas(surfaceView, VideoCanvas.RENDER_MODE_HIDDEN, 0)
         )
@@ -134,6 +156,8 @@ class AndroidVideoController(
     }
 
     fun setupRemoteVideo(surfaceView: SurfaceView, remoteUid: Int) {
+        if (rtcEngine == null) return
+
         rtcEngine?.setupRemoteVideo(
             VideoCanvas(surfaceView, VideoCanvas.RENDER_MODE_HIDDEN, remoteUid)
         )
